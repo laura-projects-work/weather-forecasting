@@ -66,7 +66,7 @@ project/
 ## Installation and Setup
 1. Clone the project repository to your local machine:
 ```bash
-git clone https://github.com/yourusername/weather-forecasting.git
+git clone https://github.com/laura-projects-work/weather-forecasting.git
 cd weather-forecasting
 ```
 
