@@ -3,7 +3,7 @@
 This repository provides a collection of R helper functions to support time series forecasting using multiple modeling techniques, including XGBoost, GLMNET, Cubist, ARIMA, and Prophet. The functions include data preprocessing, model training, forecasting, and performance evaluation utilities—all designed to streamline your forecasting workflow.
 
 ## Project Structure
-
+```bash
 project/
 ├── data/
 │   ├── hourly_data.csv         # Your dataset
@@ -16,7 +16,7 @@ project/
 │   ├── modeling.R              # All modeling functions (XGBoost, GLMNET, Cubist, ARIMA, Prophet)
 │   └── main.R                  # Main workflow script that ties everything together
 └── README.md                   # Project documentation
-
+```
 
 
 
