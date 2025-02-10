@@ -16,8 +16,8 @@ project/
 │   ├── data_preprocessing.R      # Functions for loading and preprocessing data
 │   ├── metrics.R                 # Function to compute performance metrics
 │   ├── modeling.R                # All modeling functions (XGBoost, GLMNET, Cubist, ARIMA, Prophet)
-│   ├── main.R                    # Main workflow script that ties everything together
 │   └── results_visualization.R   # Functions for visualizing forecasts and evaluation results
+├── main.R                        # Main workflow script that ties everything together
 └── README.md                     # Project documentation
 ```
 
