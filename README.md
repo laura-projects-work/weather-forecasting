@@ -1,6 +1,6 @@
 # Weather Forecasting (Time Series)
 
-This repository contains a comprehensive framework for weather forecasting using time series data. The project integrates advanced data preprocessing, various modeling techniques, performance evaluation, and result visualization.
+This repository contains a framework for weather forecasting using time series data. The project integrates data preprocessing, modeling techniques, performance evaluation, and result visualization.
 
 
 ---
@@ -77,5 +77,4 @@ install.packages(c("data.table", "ggplot2", "lubridate", "caret", "xgboost", "Me
 install.packages(c("doParallel", "foreach"))
 ```
 
-3. Data Setup
-Ensure that the dataset (hourly_data.csv) is present in the data/directory. Alternatively, run the get_data.ipynb notebook to retrieve and prepare the data.
+3. Ensure that the dataset (hourly_data.csv) is in the data/directory. Alternatively, run the get_data.ipynb notebook to retrieve and prepare the data.
