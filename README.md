@@ -6,19 +6,18 @@ This repository provides a collection of R helper functions to support time seri
 
 project/
 ├── data/
-│   └── hourly_data.csv         # Your data file
+│   ├── hourly_data.csv         # Your dataset
+│   └── get_data.ipynb          # (Optional) Notebook for data exploration or retrieval
 ├── src/
-│   ├── utilities.R             # General helper functions
-│   ├── data_preprocessing.R    # Data loading and preprocessing functions
-│   ├── metrics.R               # Metrics computation function(s)
-│   ├── formatting.R            # Forecast formatting function
-│   ├── modeling_xgboost.R      # XGBoost model function
-│   ├── modeling_glmnet.R       # GLMNET model function
-│   ├── modeling_cubist.R       # Cubist model function
-│   ├── modeling_arima.R        # ARIMA model function
-│   ├── modeling_prophet.R      # Prophet model function
-│   └── main.R                  # Main workflow script
+│   ├── utilities.R             # General helper functions (e.g., time_it)
+│   ├── data_preprocessing.R    # Functions for loading and preprocessing data
+│   ├── metrics.R               # Function(s) to compute performance metrics
+│   ├── formatting.R            # Function(s) to format forecast output
+│   ├── modeling.R              # All modeling functions (XGBoost, GLMNET, Cubist, ARIMA, Prophet)
+│   └── main.R                  # Main workflow script that ties everything together
 └── README.md                   # Project documentation
+
+
 
 
 ## Features
