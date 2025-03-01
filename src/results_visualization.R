@@ -23,8 +23,8 @@ merge_forecasts <- function(results_list) {
     merge(dt1, dt2, by = c("date", "real"), all = TRUE)
   }, lapply(names(results_list), function(model_name) {
     dt <- copy(results_list[[model_name]])
-    setnames(dt, "predicted", tolower(model_name))  # Rename "predicted" column to model name
-    dt[, model := NULL]  # Remove model column
+    setnames(dt, "predicted", tolower(model_name))
+    dt[, model := NULL]
     dt
   }))
   
